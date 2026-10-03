@@ -9,7 +9,11 @@ Fan translation patch for the Super Famicom game **Marmalade Boy** (ママレー
 
 ## Status
 
-**Beta.** All text is translated; play-testing of every ending is still in progress.
+**Current version: v0.95 (beta)** – download `MarmaladeBoy_EN_v0.95_neocrypton.ips` from the
+[latest release](https://github.com/neocrypton/MarmaladeBoy_EN-snes-public/releases/latest).
+
+All text is translated; play-testing of every ending is still in progress and some graphics may
+still be adjusted.
 
 | Part | Status |
 |---|---|
@@ -42,7 +46,7 @@ of where it happened.
    If your file is 1,049,088 bytes it has a header – remove it first (e.g. with a header removal tool,
    or simply use the online patcher below, which can strip it).
 
-2. Apply `marmalade_boy_en.ips` with any IPS patcher, for example
+2. Apply `MarmaladeBoy_EN_v0.95_neocrypton.ips` with any IPS patcher, for example
    [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (online),
    [Floating IPS (Flips)](https://github.com/Alcaro/Flips) or Lunar IPS.
 
