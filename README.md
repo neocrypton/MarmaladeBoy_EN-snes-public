@@ -9,7 +9,7 @@ Fan translation patch for the Super Famicom game **Marmalade Boy** (ママレー
 
 ## Status
 
-**Current version: v0.95 (beta)** – download `MarmaladeBoy_EN_v0.95_neocrypton.ips` from the
+**Current version: v0.96 (beta)** – download `MarmaladeBoy_EN_v0.96_neocrypton.ips` from the
 [latest release](https://github.com/neocrypton/MarmaladeBoy_EN-snes-public/releases/latest).
 
 All text is translated; play-testing of every ending is still in progress and some graphics may
@@ -23,6 +23,7 @@ still be adjusted.
 | Name entry (English pages Aa / ABC / abc, up to 10 characters) | ✅ |
 | Keywords (English words, see below) | ✅ |
 | Diary entries (86) and planner end pages (9) | ✅ |
+| Boys' data pages (names, star signs, colours, hobbies) | ✅ |
 | Graphics with Japanese text (date plate, profile, boys' data pages, title menu, calendar, icons) | ✅ |
 | Title logo and copyright line | left in the original on purpose |
 | Play-testing | ⏳ Yuu route complete · Ginta route up to the good ending · Kei route up to the break-up ending |
@@ -46,7 +47,7 @@ of where it happened.
    If your file is 1,049,088 bytes it has a header – remove it first (e.g. with a header removal tool,
    or simply use the online patcher below, which can strip it).
 
-2. Apply `MarmaladeBoy_EN_v0.95_neocrypton.ips` with any IPS patcher, for example
+2. Apply `MarmaladeBoy_EN_v0.96_neocrypton.ips` with any IPS patcher, for example
    [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (online),
    [Floating IPS (Flips)](https://github.com/Alcaro/Flips) or Lunar IPS.
 
@@ -55,9 +56,9 @@ of where it happened.
    | | |
    |---|---|
    | Size | 2,097,152 bytes (16 Mbit – the ROM is expanded to fit the English script) |
-   | CRC32 | `E7A1905E` |
-   | MD5 | `92e4c0441c89cb3b5f7e04eaeacfdfec` |
-   | SHA-1 | `17d726557dbe19066abd74b7a6157ebb5f4eb3ea` |
+   | CRC32 | `3885C5CC` |
+   | MD5 | `b048251c0a1a2dbf393596c46a772dca` |
+   | SHA-1 | `656734a148a5cc1444331f2082745e13485441a1` |
 
 The patched game is tested with snes9x. The ROM header region is set to USA/NTSC.
 
