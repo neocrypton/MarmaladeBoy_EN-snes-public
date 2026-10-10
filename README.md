@@ -9,7 +9,7 @@ Fan translation patch for the Super Famicom game **Marmalade Boy** (ママレー
 
 ## Status
 
-**Current version: v0.96 (beta)** – download `MarmaladeBoy_EN_v0.96_neocrypton.ips` from the
+**Current version: v0.97 (beta)** – download `MarmaladeBoy_EN_v0.97_neocrypton.ips` from the
 [latest release](https://github.com/neocrypton/MarmaladeBoy_EN-snes-public/releases/latest).
 
 All text is translated; play-testing of every ending is still in progress and some graphics may
@@ -18,7 +18,7 @@ still be adjusted.
 | Part | Status |
 |---|---|
 | Dialogue script | ✅ 5728 / 5728 lines translated and proofread |
-| Menus, labels, fixed UI text | ✅ |
+| Menus, labels, fixed UI text, film counter | ✅ |
 | Proportional (variable width) English font | ✅ |
 | Name entry (English pages Aa / ABC / abc, up to 10 characters) | ✅ |
 | Keywords (English words, see below) | ✅ |
@@ -47,7 +47,7 @@ of where it happened.
    If your file is 1,049,088 bytes it has a header – remove it first (e.g. with a header removal tool,
    or simply use the online patcher below, which can strip it).
 
-2. Apply `MarmaladeBoy_EN_v0.96_neocrypton.ips` with any IPS patcher, for example
+2. Apply `MarmaladeBoy_EN_v0.97_neocrypton.ips` with any IPS patcher, for example
    [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (online),
    [Floating IPS (Flips)](https://github.com/Alcaro/Flips) or Lunar IPS.
 
@@ -56,9 +56,9 @@ of where it happened.
    | | |
    |---|---|
    | Size | 2,097,152 bytes (16 Mbit – the ROM is expanded to fit the English script) |
-   | CRC32 | `3885C5CC` |
-   | MD5 | `b048251c0a1a2dbf393596c46a772dca` |
-   | SHA-1 | `656734a148a5cc1444331f2082745e13485441a1` |
+   | CRC32 | `E1CDB9F8` |
+   | MD5 | `ef5544fd8d48a55addf9426f294afb1b` |
+   | SHA-1 | `f6b618d62062bd87a0912c6d9177a1dbb4861fcd` |
 
 The patched game is tested with snes9x. The ROM header region is set to USA/NTSC.
 
